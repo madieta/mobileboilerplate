@@ -3,7 +3,7 @@
 <!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Video Homework</title>
         <meta name="description" content="">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
@@ -44,12 +44,18 @@
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
         <script>
             var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
             g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
             s.parentNode.insertBefore(g,s)}(document,"script"));
-        </script>
+        </script> -->
+<video width="320" height="240" controls>
+  <source src="wdvideo.mp4" type="video/mp4" />
+  <source src="wdvideo.ogg" type="video/ogg" />
+  <track src="subtitles2_en.vtt" kind="subtitles" srclang="en" label="English" default></track>
+  <track src="subtitles2_es.vtt" kind="subtitles" srclang="es" label="Spanish"></track>
+</video>
     </body>
 </html>
